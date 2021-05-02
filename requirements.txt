@@ -1,3 +1,4 @@
 GitPython
 Flask
 Flask-RESTful
+flask_swagger_ui
