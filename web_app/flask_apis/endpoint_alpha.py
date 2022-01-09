@@ -7,7 +7,6 @@
 
 from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
-from flasgger.utils import swag_from
 
 # Example values that can be passed and set
 sample_values = {
