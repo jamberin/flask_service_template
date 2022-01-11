@@ -22,7 +22,7 @@ arg_parse.add_argument('role', type=str)
 
 
 class SampleEndpoint(Resource):
-    """ Single endpoint that will handle multiple get scenarios """
+    """ Single CRUD endpoint that will handle multiple scenarios """
 
     @staticmethod
     def get(record_id=None):

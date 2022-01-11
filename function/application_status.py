@@ -62,12 +62,11 @@ class ApplicationStatus(object):
         # Build the dictionary
         response = {
             'branch_name': branch_name,
-            'commit': commit  # ,
-            # 'db_info': db_status
+            'commit': commit
         }
 
         # Convert to JSON
-        response = json.dumps(response)
+        # response = json.dumps(response)
 
         # Return the response
         return response
